@@ -1,0 +1,40 @@
+name: Paket kontrolü
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "17 5 * * 1"   # her pazartesi: TDK sitesinin yapısı değişti mi?
+  workflow_dispatch:
+
+jobs:
+  paket:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Birim testleri (çevrimdışı)
+        run: python3 -m unittest discover -s tests -v
+      - name: SKILL.md ve referans denetimi
+        run: python3 scripts/dogrula.py
+
+  canli-kurulum:
+    # TDK, Dil Derneği, Resmî Gazete ve Marmara sitelerinden gerçek kurulum.
+    # Kaynak siteler yurt dışı IP'lerini zaman zaman engelleyebildiği için
+    # bu iş başarısız olsa da paket kontrolünü kırmaz.
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Kurulum
+        run: python3 scripts/kur.py
+      - name: Kurulum denetimi
+        run: python3 scripts/dogrula.py --kurulum

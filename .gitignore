@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# scripts/kur.py ile kurulan üçüncü taraf içerik (TDK, Dil Derneği, Resmî Gazete
+# PDF'i, Marmara Üniversitesi kılavuzları) depoya girmez; her kurulumda kaynağından indirilir.
+references/*
+!references/ek-sik-yapilan-hatalar-vikipedi.md
+!references/resmi-yazisma/
+references/resmi-yazisma/*
+!references/resmi-yazisma/yonetmelik-2646.md
+!references/resmi-yazisma/ozet.md
+!references/tez/
+references/tez/*
+!references/tez/marmara-sbe.md
+!references/tez/marmara-ebe.md

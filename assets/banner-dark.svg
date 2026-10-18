@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="t d">
+  <title id="t">TDK Yazım Kılavuzu</title>
+  <desc id="d">Türkçe metinler, TDK'ya göre. Yazım Kılavuzu 2026, resmî yazışma ve tez yazımı için Claude Code skill'i.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#16213a"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="24" fill="url(#grid)"/>
+  <circle cx="1180" cy="-40" r="220" fill="#e2c27a" fill-opacity="0.06"/>
+  <circle cx="1240" cy="360" r="160" fill="#4f7cff" fill-opacity="0.07"/>
+
+  <!-- düzeltilmiş sayfa -->
+  <g transform="translate(92 36)" filter="url(#soft)">
+    <rect width="224" height="268" rx="14" fill="#f8f5ec"/>
+    <rect x="22" y="24" width="96" height="10" rx="5" fill="#1b2a4a"/>
+    <rect x="22" y="44" width="62" height="7" rx="3.5" fill="#9aa6bd"/>
+    <line x1="22" y1="68" x2="202" y2="68" stroke="#d9d2bd" stroke-width="2" stroke-dasharray="4 5"/>
+    <text x="22" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1b2a4a">işbirliği</text>
+    <line x1="20" y1="95" x2="92" y2="95" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="100" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-style="italic" fill="#c0392b">iş birliği</text>
+    <text x="22" y="134" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1b2a4a">Kurumu’na</text>
+    <line x1="20" y1="129" x2="104" y2="129" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="112" y="134" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-style="italic" fill="#c0392b">Kurumuna</text>
+    <text x="22" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#1b2a4a">Kanun’un</text>
+    <path d="M104 158l7 8 14-17" fill="none" stroke="#1e7d4f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="22" y="188" width="140" height="7" rx="3.5" fill="#9aa6bd"/>
+    <rect x="22" y="206" width="112" height="7" rx="3.5" fill="#9aa6bd"/>
+    <rect x="22" y="224" width="128" height="7" rx="3.5" fill="#9aa6bd"/>
+    <!-- mühür -->
+    <g transform="translate(184 236) rotate(-14)">
+      <circle r="30" fill="none" stroke="#b8862b" stroke-width="3"/>
+      <circle r="24" fill="none" stroke="#b8862b" stroke-width="1.5" stroke-dasharray="3 3"/>
+      <text x="0" y="6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#b8862b">TDK</text>
+    </g>
+  </g>
+
+  <text x="1236" y="214" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="150" font-weight="800" fill="#ffffff" fill-opacity="0.035">2026</text>
+
+  <!-- başlık -->
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+    <text x="360" y="104" font-size="18" font-weight="700" letter-spacing="3" fill="#e2c27a">CLAUDE CODE SKILL · YAZIM KILAVUZU 2026</text>
+    <text x="358" y="170" font-size="60" font-weight="800" fill="#f5f7fb">TDK Yazım Kılavuzu</text>
+    <text x="360" y="214" font-size="24" font-weight="400" fill="#b9c3d6">Türkçe metinler, <tspan fill="#e2c27a" font-weight="700">TDK’ya göre.</tspan></text>
+
+    <g font-size="15" font-weight="600" fill="#dbe3f1">
+      <g transform="translate(360 248)">
+        <rect width="104" height="32" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.18"/>
+        <text x="52" y="21" text-anchor="middle">Büyük harf</text>
+      </g>
+      <g transform="translate(474 248)">
+        <rect width="127" height="32" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.18"/>
+        <text x="64" y="21" text-anchor="middle">Kesme işareti</text>
+      </g>
+      <g transform="translate(611 248)">
+        <rect width="164" height="32" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.18"/>
+        <text x="82" y="21" text-anchor="middle">Bitişik mi ayrı mı</text>
+      </g>
+      <g transform="translate(785 248)">
+        <rect width="97" height="32" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.18"/>
+        <text x="48" y="21" text-anchor="middle">Noktalama</text>
+      </g>
+      <g transform="translate(892 248)">
+        <rect width="127" height="32" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.18"/>
+        <text x="64" y="21" text-anchor="middle">Resmî yazışma</text>
+      </g>
+      <g transform="translate(1029 248)">
+        <rect width="104" height="32" rx="16" fill="#e2c27a" fill-opacity="0.16" stroke="#e2c27a" stroke-opacity="0.6"/>
+        <text x="52" y="21" text-anchor="middle" fill="#f3dfae">Tez yazımı</text>
+      </g>
+    </g>
+  </g>
+</svg>

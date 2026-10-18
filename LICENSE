@@ -1,0 +1,37 @@
+MIT License
+
+Copyright (c) 2026 Hasan İmer Akın
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---------------------------------------------------------------------------
+Üçüncü taraf içerik / Third-party content
+
+Bu lisans yalnızca bu depodaki kodu ve depo sahibince yazılmış metinleri kapsar.
+
+- references/ek-sik-yapilan-hatalar-vikipedi.md: Vikipedi topluluğunun
+  "Vikipedi:Türkçede sık yapılan hatalar" sayfasından uyarlanmıştır;
+  Creative Commons Atıf-AynıLisanslaPaylaş 4.0 (CC BY-SA 4.0) lisansıyla
+  dağıtılır: https://creativecommons.org/licenses/by-sa/4.0/deed.tr
+- references/resmi-yazisma/yonetmelik-2646.md: Resmî Yazışmalarda Uygulanacak
+  Usul ve Esaslar Hakkında Yönetmelik'in metnidir. Mevzuat metinleri 5846
+  sayılı FSEK m.31 uyarınca serbestçe çoğaltılabilir.
+- scripts/kur.py'nin indirdiği içerik (TDK Yazım Kılavuzu, Dizin ve Kısaltmalar
+  Dizini; Dil Derneği Kısaltmalar Dizelgesi; Marmara Üniversitesi tez yazım
+  kılavuzları) bu depoda bulunmaz ve hakları sahiplerine aittir.
