@@ -10,7 +10,7 @@ Kullanım:
     python3 scripts/kur.py --yalniz-tdk         # yalnızca TDK kuralları, dizin, kısaltmalar
     python3 scripts/kur.py --hedef /baska/yer   # references/ yerine başka klasöre yaz
 
-Yalnızca Python standart kütüphanesini kullanır (3.9+). urllib SSL sertifikası
+Yalnızca Python standart kütüphanesini kullanır (3.10+). urllib SSL sertifikası
 bulamazsa (macOS'taki python.org kurulumlarında sık görülür) curl'e geçer.
 """
 

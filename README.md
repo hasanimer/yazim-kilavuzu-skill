@@ -10,7 +10,7 @@
 
 [![Paket kontrolü](https://img.shields.io/github/actions/workflow/status/hasanimer/yazim-kilavuzu-skill/validate.yml?branch=main&style=flat-square&label=paket%20kontrol%C3%BC&labelColor=0f1b33)](https://github.com/hasanimer/yazim-kilavuzu-skill/actions/workflows/validate.yml)
 ![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-D97757?style=flat-square&labelColor=0f1b33)
-![Python](https://img.shields.io/badge/Python-3.9%2B%20%C2%B7%20yaln%C4%B1z%20stdlib-3776AB?style=flat-square&labelColor=0f1b33)
+![Python](https://img.shields.io/badge/Python-3.10%2B%20%C2%B7%20yaln%C4%B1z%20stdlib-3776AB?style=flat-square&labelColor=0f1b33)
 ![Yazım Kılavuzu](https://img.shields.io/badge/TDK%20Yaz%C4%B1m%20K%C4%B1lavuzu-2026%20bask%C4%B1s%C4%B1-c99a3b?style=flat-square&labelColor=0f1b33)
 [![Lisans](https://img.shields.io/badge/lisans-MIT-2ea44f?style=flat-square&labelColor=0f1b33)](LICENSE)
 
@@ -184,7 +184,7 @@ aşikar mı aşikâr mı?        → aşikâr.
 | Sınama | Sonuç |
 |---|---|
 | Kurulum betiğinin çıktısı, elle hazırlanmış referanslarla karşılaştırma | 16 dosyadan 15'i birebir aynı, 1'inde yalnız sıralama farkı |
-| Birim testleri (çevrimdışı) | 15/15 · Python 3.9 ve 3.12 |
+| Birim testleri (çevrimdışı) | 15/15 · Python 3.10 ve 3.13 |
 | Dilekçe denetimi, 14 yerleştirilmiş hata | ilk denemede 13/14; harf adları kuralı eklendikten sonra 14/14 |
 | Kelime soruları | 5/5 |
 | Resmî yazı denetimi | tarih, konu, muhatap, imza, ek ve bitiş hatalarının hepsi madde numarasıyla bulundu |
@@ -234,7 +234,7 @@ python3 -m unittest discover -s tests -v   # çevrimdışı birim testleri
 python3 scripts/dogrula.py                 # SKILL.md ve referans denetimi
 ```
 
-GitHub Actions her gönderimde testleri Python 3.9 ve 3.12 ile çalıştırır. Ayrıca her pazartesi gerçek bir kurulum yapar; TDK sitesinin yapısı değişirse bu iş kırmızıya döner.
+GitHub Actions her gönderimde testleri Python 3.10 ve 3.13 ile çalıştırır. Ayrıca her pazartesi gerçek bir kurulum yapar; TDK sitesinin yapısı değişirse bu iş kırmızıya döner.
 
 ## ⚠️ Sınırlar
 
