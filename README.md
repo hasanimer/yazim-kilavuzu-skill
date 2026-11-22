@@ -244,4 +244,8 @@ GitHub Actions her gönderimde testleri Python 3.10 ve 3.13 ile çalıştırır.
 
 ## Lisans
 
-Kod ve depo sahibince yazılmış metinler [MIT](LICENSE) lisanslıdır. Üçüncü taraf içerikle ilgili ayrıntılar [LICENSE](LICENSE) dosyasının sonundadır.
+Kod ve depo sahibince yazılmış metinler [MIT](LICENSE) lisanslıdır. Üçüncü taraf içerikle ilgili ayrıntılar [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) dosyasındadır.
+
+## Atıf
+
+Bu projeyi kullandığınız çalışmalarda [Yazım Kılavuzu Skill](https://github.com/hasanimer/yazim-kilavuzu-skill) bağlantısıyla projeye atıf yapmanızı rica ederiz. [MIT lisansı](LICENSE) uyarınca yazılımın kopyalarında veya önemli bölümlerinde telif hakkı ve lisans bildirimlerini koruyun.
